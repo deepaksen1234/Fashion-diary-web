@@ -1,0 +1,291 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+.navbar-nav{
+  font-family: "Playwrite DE Grund", cursive;
+}
+.custom-navbar {
+  background-color: rgba(255, 255, 255, 0.8); 
+  backdrop-filter: blur(10px); 
+  transition: background-color 0.3s ease;
+}
+
+.custom-navbar .nav-link {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ff6347;
+}
+
+/* .navbar-brand {
+  color: #ff6347; 
+} */
+.related-font{
+  font-size: 30px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+ .post {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+} 
+.post:hover {
+    transform: scale(1.02);
+}
+.post-img {
+    height: 250px;
+    object-fit: cover;
+}
+.card-body {
+    padding: 20px;
+}
+.footer {
+    color: white;
+    padding: 20px 0;
+}
+.blog-box {
+    margin-bottom: 30px;
+    transition: transform 0.2s;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.blog-box:hover {
+    transform: translateY(-5px);
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.blog-header {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+.blog-content {
+    margin-top: 30px;
+}
+.sidebar {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0;
+}
+.fixed-background {
+    height: 1100px;
+    background-image: url('../public/img/bg-img.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 100px 0; 
+    text-align: center;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .attractive-heading {
+    margin-bottom: 200px;
+    margin-top: 80px;
+    font-family: "Playwrite DE Grund", cursive;
+   font-size: 100px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for better visibility */
+  }
+  .big-heading{
+    font-size: 100px;
+    font-family: "Playfair Display", serif;
+  }
+  .img1{
+    max-width: 450px;
+    height: 480px;
+   background: url(../public/img/img1.webp);
+   background-size: cover;
+   background-position: center;
+   }
+   .img-end-cont{
+    max-width: 450px;
+   }
+  .read{
+    font-family: "Playwrite DE Grund", cursive;
+  }
+  .blog{
+    font-family: "Playfair Display", serif;
+  }
+  .tran-buttn{
+    background: transparent;
+    transition: 0.4s;
+  }
+  .tran-buttn:hover{
+    border: none;
+    background-color: rgb(37, 109, 191);
+  }
+  .advertis-diva{
+    height: 200px;
+    border: 5px solid black;
+    max-width: 450px;
+
+  }
+  .with{
+    font-family: "Playwrite DE Grund", cursive;
+  }
+  .fashion-diva{
+    font-family: "Playfair Display", serif;
+  }
+  .tran1-buttn{
+    background-color: #999999;
+    transition: 0.5s;
+  }
+  .tran1-buttn:hover{
+    border: none;
+    background-color: rgb(37, 109, 191);
+  }
+  .img2{
+    background-image: url(../public/img/leg.webp);
+  }
+  span{
+    font-size: 10px;
+    margin-left: 50px;
+    
+  }
+.parentss{
+    width: 100%;
+    height: 411px;
+  }
+  .bioo{
+    background-color: #F7FCFF;
+  }
+  .about-relat2{
+    font-family: "Playfair Display", serif; 
+    font-size: 25px;
+  }
+  .about-relat{
+    font-family: "Playfair Display", serif; 
+    letter-spacing: 8px;
+  }
+  .about-relat1{
+    font-family: "Playfair Display", serif; 
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 40px;
+  }
+  .for-with-related{
+    max-width: 950px;
+  }
+  .bio-jessica{
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 15px;
+  }
+  .cursor{
+    cursor: pointer;
+  }
+  .input-task{
+    width: 400px;
+    padding: 7px 5px;
+    border-radius:0;
+    border: 2px solid white;
+    outline: none;
+    color: white;
+  }
+  .button-task{
+    padding: 8px 20px;
+  }
+  .bottom-footer{
+    background-color: #242323;
+    font-size: 14px;
+    padding: 10px 0px 1px 0px;
+  }
+  .related-font{
+    font-family: "Playwrite DE Grund", cursive;
+  }
+  @media (max-width:576px){
+    .attractive-heading {
+      font-size:60px;
+    }
+    .fixed-background {
+      height: 300px;
+      margin-top: 50px;
+      transform: scale(1.0,1.0);
+      }
+    .big-heading{
+      font-size: 40px;
+    }
+    .parentss{
+      width: 100%;
+      height:206px;
+    }
+    .about-relat1{
+      font-weight: 200;
+      font-size: 30px;
+    }
+    .bio-jessica{
+    
+      font-size:20px;
+    }
+    .img-hi{
+      transform: scale(1.8);
+      margin-top: 50px;
+      margin-bottom: 50px;
+      
+    }
+    .input-task{
+      width: 220px;
+      padding: 7px 5px;
+      border-radius:0;
+      border: 2px solid white;
+      outline: none;
+      color: white;
+    }
+    .button-task{
+      padding: 4px 4px;
+      font-size: 14px;
+    }
+    
+    .for-transition{
+      transition: 0.6s;
+      height: 100vh;
+      padding: 50px 10px;
+    }
+    
+    
+  }
+  @media (min-width:576px) and (max-width:992px){
+    .related-font{
+      font-size: 40px;
+    }
+    .for-transition{
+      transition: 0.6s;
+      height: 100vh;
+    }
+    .for-transition{
+      padding: 50px 10px;
+      font-size: 20px;
+    }
+  }
+  
