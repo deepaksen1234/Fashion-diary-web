@@ -15,7 +15,7 @@ export default function Home() {
     []
   )
   return (
-    <div className='body'>
+    <div className='body overflow-hidden'>
     <Navbar/>
     
     {/* New Background Section */}
